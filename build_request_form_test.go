@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-telegram/bot/models"
+	"github.com/yinhe418/telegram-bot/models"
 )
 
 func assertFormData(t *testing.T, data, expect string) {

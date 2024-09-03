@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/go-telegram/bot/models"
+	"github.com/yinhe418/telegram-bot/models"
 )
 
 func (b *Bot) WebhookHandler() http.HandlerFunc {

@@ -8,8 +8,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/go-telegram/bot"
-	"github.com/go-telegram/bot/models"
+	"github.com/yinhe418/telegram-bot"
+	"github.com/yinhe418/telegram-bot/models"
 )
 
 func main() {

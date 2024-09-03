@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/go-telegram/bot/models"
+	"github.com/yinhe418/telegram-bot/models"
 )
 
 func Test_applyMiddlewares(t *testing.T) {
@@ -102,7 +102,7 @@ func Test_findHandler(t *testing.T) {
 	ctx := context.Background()
 	upd := &models.Update{Message: &models.Message{Text: "test"}}
 
-	handler := bot.findHandler(HandlerTypeMessageText, upd)
+	handler := bot.findHandler(upd)
 	handler(ctx, bot, upd)
 
 	if !called {
@@ -125,7 +125,7 @@ func Test_findHandler_Default(t *testing.T) {
 	ctx := context.Background()
 	upd := &models.Update{Message: &models.Message{Text: "test"}}
 
-	handler := bot.findHandler(HandlerTypeCallbackQueryData, upd)
+	handler := bot.findHandler(upd)
 	handler(ctx, bot, upd)
 
 	if !called {
