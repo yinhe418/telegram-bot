@@ -1,6 +1,6 @@
 # Golang Telegram Bot
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-telegram/bot)](https://goreportcard.com/report/github.com/go-telegram/bot) [![codecov](https://codecov.io/gh/go-telegram/bot/branch/main/graph/badge.svg?token=57B1OR6PCK)](https://codecov.io/gh/go-telegram/bot)
+[![Go Report Card](https://goreportcard.com/badge/github.com/yinhe418/telegram-bot)](https://goreportcard.com/report/github.com/yinhe418/telegram-bot) [![codecov](https://codecov.io/gh/go-telegram/bot/branch/main/graph/badge.svg?token=57B1OR6PCK)](https://codecov.io/gh/go-telegram/bot)
 
 ✅ Present in the list of libraries https://core.telegram.org/bots/samples#go
 
@@ -20,8 +20,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/go-telegram/bot"
-	"github.com/go-telegram/bot/models"
+	"github.com/yinhe418/telegram-bot"
+	"github.com/yinhe418/telegram-bot/models"
 )
 
 // Send any text message to the bot after the bot has been started
@@ -61,7 +61,7 @@ Go version: **1.18**
 Install the dependencies:
 
 ```bash
-go get -u github.com/go-telegram/bot
+go get -u github.com/yinhe418/telegram-bot
 ```
 
 Initialize and run the bot:
